@@ -1,0 +1,27 @@
+.conteiner{
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   border: 1px solid black;
+   gap: 10px;
+   position: relative;
+}
+.conteiner p:first-child{
+   font-size: 20px;
+   font-weight: 700;
+}
+.conteiner>div{
+   position: absolute;
+   top: 50px;
+   right: 20px;
+   border: 1px solid black;
+   padding: 10px;
+   cursor: pointer;
+}
+.conteiner p:last-child{
+   position: absolute;
+   top: 5px;
+   right: 20px;
+   padding: 5px;
+   cursor: pointer;
+}

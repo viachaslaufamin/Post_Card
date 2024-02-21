@@ -1,0 +1,12 @@
+.conteiner{
+   padding: 30px;
+   display: flex;
+   gap: 30px;
+}
+.conteiner>input{
+   width: 200px;
+   height: 30px;
+}
+.conteiner>button{
+   width: 100px;
+}
